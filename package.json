@@ -1,11 +1,14 @@
 {
-  "name": "@sonhoai272/re-pptxtojson",
-  "version": "0.0.1-2.1",
+  "name": "@shdvn/re-pptxtojson",
+  "version": "0.0.3",
   "description": "A javascript tool for parsing .pptx file",
   "type": "module",
   "main": "./dist/index.umd.js",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
+  "publishConfig": {
+    "access": "public"
+  },
   "scripts": {
     "clean:dist": "rimraf dist",
     "dev": "rollup -c -w",
@@ -13,9 +16,6 @@
   },
   "author": "sonhoai272 <sonhoai272@gmail.com>",
   "license": "GPL-3.0",
-  "publishConfig": {
-    "registry": "https://registry.npmjs.com/"
-  },
   "dependencies": {
     "jszip": "^3.10.1",
     "tinycolor2": "1.6.0",
@@ -35,5 +35,13 @@
     "rollup": "^3.3.0",
     "rollup-plugin-node-builtins": "^2.1.2",
     "rollup-plugin-node-globals": "^1.4.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sonhoai27/re-pptxtojson.git"
+  },
+  "bugs": {
+    "url": "https://github.com/sonhoai27/re-pptxtojson/issues"
+  },
+  "homepage": "https://github.com/sonhoai27/re-pptxtojson#readme"
 }

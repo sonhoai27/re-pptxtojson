@@ -2,7 +2,7 @@
 PPTX2JSON Đây là một công cụ có nguồn gốc từ PPTX2HTML. Các tệp .pptx có thể được phân tích cú pháp thành dữ liệu JSON. Nó vẫn chưa đủ để sử dụng cho sản xuất.
 
 # install
-> npm install pptxtojson
+> npm install re-pptxtojson
 
 # 💿 use
 ```html
@@ -10,7 +10,7 @@ PPTX2JSON Đây là một công cụ có nguồn gốc từ PPTX2HTML. Các tệ
 ```
 
 ```js
-import { parse } from 'pptxtojson'
+import { parse } from 're-pptxtojson'
 
 document.querySelector('input').addEventListener('change', evt => {
 	const file = evt.target.files[0]
